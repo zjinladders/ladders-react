@@ -1,0 +1,41 @@
+{
+  "name": "ladders-react-common",
+  "version": "1.0.0",
+  "description": "Common react components that can be used across all front end projects at Ladders",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-a11y": "^5.2.0-rc.6",
+    "@storybook/addon-actions": "^5.2.0-rc.6",
+    "@storybook/addon-docs": "^5.2.0-rc.6",
+    "@storybook/addon-info": "^5.2.0-rc.6",
+    "@storybook/addon-knobs": "^5.2.0-rc.6",
+    "@storybook/addon-notes": "^5.2.0-rc.6",
+    "@storybook/addon-viewport": "^5.2.0-rc.6",
+    "@storybook/addons": "^5.2.0-rc.6",
+    "@storybook/react": "^5.2.0-rc.6",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "prop-types": "^15.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "styled-components": "^5.0.1"
+  }
+}
